@@ -182,19 +182,78 @@ BEGIN
  Item[3]:=14;
  ItemCount:=4;
  Sumcheck:=47;
- Selected:=22;
+ Selected:=19;
 END;
 Frame[0]:=
 BEGIN
+ Norm:="0078 0078 1102 0504";
+ Min:="-001 -001";
+ Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_table_fix\table_fix_cp1l.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1";
+ Type:=8;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0000 0000 1020 0422";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.system_moteur_courroie!system_moteur_courroie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0182 0182 1206 0608";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.compensateur!compensateur";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0156 0156 1180 0582";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.table_mobile!table_mobile";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
  Norm:="0026 0026 1050 0452";
  Min:="-001 -001";
+ Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_table_fix\table_fix_cp1l.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=25;
+   Yscroll:=22;
    Mag:=1;
    Extra:=
    BEGIN
@@ -213,12 +272,12 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[1]:=
+Frame[5]:=
 BEGIN
- Norm:="0078 0078 1102 0504";
+ Norm:="0052 0052 1151 0369";
  Min:="-001 -001";
- Access:="PROJECT:!NewProject.Resources.NewResource1";
- Type:=8;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
  Views:=
  BEGIN
   View[0]:=
@@ -228,11 +287,11 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
+Frame[6]:=
 BEGIN
- Norm:="0000 0000 1020 0422";
+ Norm:="0130 0130 1154 0556";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.system_moteur_courroie!system_moteur_courroie";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.output!output";
  Type:=1;
  Views:=
  BEGIN
@@ -242,7 +301,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[7]:=
 BEGIN
  Norm:="0052 0052 1076 0478";
  Min:="-001 -001";
@@ -270,8 +329,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[8]:=
 BEGIN
+ Max:=true;
  Norm:="0104 0104 1128 0530";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.elevateur_courroie!elevateur_courroie";
@@ -285,50 +345,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
-BEGIN
- Norm:="0182 0182 1206 0608";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.compensateur!compensateur";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0156 0156 1180 0582";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.table_mobile!table_mobile";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Max:=true;
- Norm:="0130 0130 1154 0556";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.output!output";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=8;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
