@@ -52,19 +52,19 @@ BEGIN
  BEGIN
   BarID:=59414;
   Visible:=0;
-  Pos:="0 0";
+  Pos:="705 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 0 0 0";
+  MRUDockPos:="705 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="545633";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="831 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -76,20 +76,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Visible:=0;
-  Pos:="572 5";
+  Pos:="849 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="572 5 1136 185";
+  MRUDockPos:="849 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="500000";
+  PctWidth:="449422";
   MRUFloat:="300 180";
-  MRUHorzDock:="564 180";
+  MRUHorzDock:="687 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -153,16 +152,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1536 185";
+  MRUDockPos:="1 5 843 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="550578";
   MRUFloat:="300 180";
-  MRUHorzDock:="1535 180";
+  MRUHorzDock:="842 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -182,7 +181,7 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=47;
- Selected:=20;
+ Selected:=17;
 END;
 Frame[0]:=
 BEGIN
@@ -202,23 +201,24 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0000 0000 1020 0422";
+ Norm:="0052 0052 1151 0369";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.system_moteur_courroie!system_moteur_courroie";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Mag:=1;
   END;
   nViews:=1;
  END;
 END;
 Frame[2]:=
 BEGIN
- Norm:="0182 0182 1206 0608";
+ Norm:="0130 0130 1154 0556";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.compensateur!compensateur";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.output!output";
  Type:=1;
  Views:=
  BEGIN
@@ -239,6 +239,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=29;
    Mag:=1;
    Extra:=
    BEGIN
@@ -259,48 +260,19 @@ BEGIN
 END;
 Frame[4]:=
 BEGIN
- Norm:="0052 0052 1151 0369";
+ Norm:="0156 0156 1180 0582";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
- Type:=7;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.rouleaux_table_fix!rouleaux_table_fix";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
   END;
   nViews:=1;
  END;
 END;
 Frame[5]:=
-BEGIN
- Norm:="0130 0130 1154 0556";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.output!output";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0104 0104 1128 0530";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.elevateur_courroie!elevateur_courroie";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
 BEGIN
  Norm:="0052 0052 1076 0478";
  Min:="-001 -001";
@@ -310,6 +282,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=11;
    Mag:=1;
    Extra:=
    BEGIN
@@ -328,23 +301,65 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[8]:=
+Frame[6]:=
 BEGIN
- Max:=true;
- Norm:="0156 0156 1180 0582";
+ Norm:="0182 0182 1206 0608";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.rouleaux_table_fix!rouleaux_table_fix";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.compensateur!compensateur";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=1;
+   Yscroll:=15;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=9;
+Frame[7]:=
+BEGIN
+ Norm:="0078 0078 1178 0403";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Norm:="0104 0104 1128 0530";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.elevateur_courroie!elevateur_courroie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0000 0000 1020 0422";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.system_moteur_courroie!system_moteur_courroie";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=10;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
@@ -357,8 +372,16 @@ BEGIN
   ColumnWidth[3]:=88;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=60;
-  NumWatches:=1;
+  NumWatches:=2;
   Watch[0]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D2012";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[1]:=
   BEGIN
   END;
  END;
