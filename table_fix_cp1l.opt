@@ -7,9 +7,9 @@ BEGIN
   Bars:=6;
   Bar[0]:=0;
   Bar[1]:=59415;
-  Bar[2]:=59414;
+  Bar[2]:=59416;
   Bar[3]:=59412;
-  Bar[4]:=59416;
+  Bar[4]:=59414;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -52,10 +52,10 @@ BEGIN
  BEGIN
   BarID:=59414;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="0 0";
   Docking:=1;
-  MRUDockID:=59422;
-  MRUDockPos:="1 5 1136 185";
+  MRUDockID:=0;
+  MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -64,7 +64,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1135 180";
+  MRUHorzDock:="300 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -77,19 +77,19 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="572 5";
   Docking:=1;
-  MRUDockID:=59422;
-  MRUDockPos:="1 5 1136 185";
+  MRUDockID:=0;
+  MRUDockPos:="572 5 1136 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1135 180";
+  MRUHorzDock:="564 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -112,9 +112,9 @@ BEGIN
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1789541";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="2738 180";
+  MRUHorzDock:="565 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,8 +128,8 @@ BEGIN
   BarID:=59413;
   Pos:="0 -2";
   Docking:=1;
-  MRUDockID:=59420;
-  MRUDockPos:="0 -2 301 447";
+  MRUDockID:=0;
+  MRUDockPos:="0 -2 300 455";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -139,7 +139,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="301 449";
+  MRUVertDock:="300 457";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -152,7 +152,7 @@ BEGIN
   BarID:=59415;
   Pos:="1 5";
   Docking:=1;
-  MRUDockID:=59422;
+  MRUDockID:=0;
   MRUDockPos:="1 5 1536 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
@@ -178,17 +178,17 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=12;
+ Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=47;
- Selected:=19;
+ Selected:=20;
 END;
 Frame[0]:=
 BEGIN
  Norm:="0078 0078 1102 0504";
  Min:="-001 -001";
- Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_table_fix\table_fix_cp1l.cxp";
+ Path:="C:\Users\DELL\Desktop\machine_bt_table_fix\table_fix_cp1l.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1";
  Type:=8;
  Views:=
@@ -230,30 +230,15 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0156 0156 1180 0582";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.table_mobile!table_mobile";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
  Norm:="0026 0026 1050 0452";
  Min:="-001 -001";
- Path:="C:\Users\ihebw\OneDrive\Bureau\machine_bt_table_fix\table_fix_cp1l.cxp";
+ Path:="C:\Users\DELL\Desktop\machine_bt_table_fix\table_fix_cp1l.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=22;
    Mag:=1;
    Extra:=
    BEGIN
@@ -272,7 +257,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[4]:=
 BEGIN
  Norm:="0052 0052 1151 0369";
  Min:="-001 -001";
@@ -287,11 +272,25 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[5]:=
 BEGIN
  Norm:="0130 0130 1154 0556";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.output!output";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0104 0104 1128 0530";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.elevateur_courroie!elevateur_courroie";
  Type:=1;
  Views:=
  BEGIN
@@ -332,15 +331,15 @@ END;
 Frame[8]:=
 BEGIN
  Max:=true;
- Norm:="0104 0104 1128 0530";
+ Norm:="0156 0156 1180 0582";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.elevateur_courroie!elevateur_courroie";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.rouleaux_table_fix!rouleaux_table_fix";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=3;
+   Yscroll:=1;
   END;
   nViews:=1;
  END;
